@@ -1,0 +1,35 @@
+.mainblock {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+.mainblock h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.buttons {
+    display: flex;
+}
+
+#bts {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    margin: auto;
+    color: #404040;
+    background-color: white;
+    border: 1px solid #404040;
+        
+}
+
+#bts:hover {
+    background: #8f7cec;
+    border-radius: 5px;
+    background-color: silver;
+}
